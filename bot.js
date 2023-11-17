@@ -5,7 +5,7 @@ const fs = require('fs');
 const PdfExtractor = require('pdf-extractor').PdfExtractor;
 const CanvasRenderer = require('pdf-extractor').CanvasRenderer;
 const FileWriter = require('pdf-extractor').FileWriter;
-require('dotenv').config();
+require('dotenv').config();        
 
 class JPGWriter extends FileWriter {
   getFilePathForPage(page) {
